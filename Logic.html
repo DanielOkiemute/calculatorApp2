@@ -1,0 +1,43 @@
+<!--The objectives of this project is to build a calculator App that is able to perform basic Arithmetic Operations like Addition,Subtraction,Multiplication and Division-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Webpage</title>
+    
+    <link rel="stylesheet" href="Logic.css">
+</head>
+<body>
+    
+    <main id=main>
+        <h1 id="calculator">SIMPLE CALCULATOR</h1>
+        <input type="text" id="display"  readonly>
+        <div id="btn">
+          <button onclick="appendValue('1')" class="btns">1</button>
+           <button onclick="appendValue('2')" class="btns">2</button>
+           <button onclick="appendValue('3')" class="btns">3</button>
+           <button onclick="appendValue('4')" class="btns">4</button>
+           <button onclick="numb('5')" class="btns">5</button>
+           <button onclick="appendValue('6')" class="btns">6</button>
+          <button onclick="appendValue('7')" class="btns">7</button>
+           <button onclick="appendValue('8')" class="btns">8</button>
+           <button onclick="appendValue('9')" class="btns">9</button>
+           <button onclick="appendValue('0')" class="btns">0</button>
+           <button onclick="appendOperator('+')" class="btnss">+</button>
+           <button onclick="appendOperator('-')" class="btnss">-</button>
+           <button onclick="appendOperator('*')" class="btnss">*</button>
+           <button onclick="appendOperator('/')" class="btnss">/</button>
+           <button onclick="appendValue('.')" class="btnss">.</button>
+           <button onclick="clearDisplay('c')" class="special">c</button>
+           <button onclick="calculate('=')" class="special">=</button
+             
+           
+        </div>
+        
+    </main>
+    
+    <script src="Logic.js"></script>
+</body>
+</html>
